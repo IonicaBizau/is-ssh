@@ -43,7 +43,7 @@ var input = [
 // Run the tests
 input.forEach(function (c) {
     it(c[0] + " is supposed " + (!c[1] ? "not " : "") + "to be a ssh url", function (cb) {
-        Assert(IsSsh(c[0], c[1]));
+        Assert.equal(IsSsh(c[0]), c[1]);
         cb();
     });
 });
