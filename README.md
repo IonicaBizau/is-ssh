@@ -15,7 +15,7 @@
 
 # is-ssh [![Donate now][donate-now]][paypal-donations]
 
-Check if an input is a ssh url or not.
+Check if an input value is a ssh url or not.
 
 ## Installation
 
@@ -116,7 +116,7 @@ console.log(IsSsh("file://~/path/to/repo.git/"));
 ## Documentation
 
 ### `IsSsh(input)`
-Checks if the input is a ssh url or not.
+Checks if an input value is a ssh url or not.
 
 #### Params
 - **String** `input`: The input url.

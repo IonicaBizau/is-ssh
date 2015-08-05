@@ -1,7 +1,7 @@
 {
   "name": "is-ssh",
   "version": "1.0.0",
-  "description": "Check if an input is a ssh url or not.",
+  "description": "Check if an input value is a ssh url or not.",
   "main": "lib/index.js",
   "directories": {
     "example": "example",
