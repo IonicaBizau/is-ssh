@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-is-ssh/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-is-ssh"
+  "homepage": "https://github.com/IonicaBizau/node-is-ssh",
+  "dependencies": {
+    "protocols": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
