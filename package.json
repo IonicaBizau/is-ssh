@@ -1,6 +1,6 @@
 {
   "name": "is-ssh",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Check if an input value is a ssh url or not.",
   "main": "lib/index.js",
   "directories": {
@@ -21,7 +21,7 @@
     "parser"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "KINDLY",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/node-is-ssh/issues"
   },
