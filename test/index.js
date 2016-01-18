@@ -1,7 +1,7 @@
 // Dependencies
-var IsSsh = require("../lib")
-  , Assert = require("assert")
-  ;
+const isSsh = require("../lib")
+    , tester = require("tester")
+    ;
 
 // Prepare the input data
 var input = [
@@ -40,10 +40,11 @@ var input = [
   , ["file://~/path/to/repo.git/", false]
 ];
 
-// Run the tests
-input.forEach(function (c) {
-    it(c[0] + " is supposed " + (!c[1] ? "not " : "") + "to be a ssh url", function (cb) {
-        Assert.equal(IsSsh(c[0]), c[1]);
-        cb();
+tester.describe("check urls", test => {
+    // Run the tests
+    input.forEach(c => {
+        test.it(c[0] + " is supposed " + (!c[1] ? "not " : "") + "to be a ssh url", () => {
+            test.expect(isSsh(c[0])).toBe(c[1]);
+        });
     });
 });
