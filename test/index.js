@@ -31,7 +31,8 @@ var input = [
     // HTTP/S Transport Protocol
   , ["http://host.xz/path/to/repo.git/", false]
   , ["https://host.xz/path/to/repo.git/", false]
-
+  , ["http://host.xz:8000/path/to/repo.git/", false]
+  , ["https://host.xz:8000/path/to/repo.git/", false]
     // Local (Filesystem) Transport Protocol
   , ["/path/to/repo.git/", false]
   , ["path/to/repo.git/", false]
